@@ -1,0 +1,193 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/master.css">
+    <link rel="stylesheet" href="css/font-awesome.css">
+    <script src="js/jquery.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <title>My Portfolio Website</title>
+  </head>
+  <body id="bootstrap-override">
+    <div class="container-fluid">
+      <header class="row">
+        <nav class="navbar navbar-inverse navbar-fixed-top">
+          <div class="container">
+            <div class="navbar-header">
+					    <button type="button" class="navbar-toggle"
+					      data-toggle="collapse" data-target="#nav_collapse">
+						    <span class="sr-only">Toggle navigation</span>
+						    <span class="icon-bar"></span>
+						    <span class="icon-bar"></span>
+						    <span class="icon-bar"></span>
+					    </button>
+					    <a href="#" class="navbar-brand" id="logo">WebsTaR</a>
+				    </div>
+            <div class="collapse navbar-collapse" id="nav_collapse">
+					    <ul class="nav navbar-nav navbar-right">
+						    <li><a href="">Home</a></li>
+						    <li><a href="#about">About</a></li>
+						    <li><a href="#portfolio">Portfolio</a></li>
+						    <li><a href="#contact">Contact</a></li>
+					    </ul>
+				    </div>
+          </div>
+        </nav>
+      </header>
+      <!--End of nav-bar-->
+      <div class="row" style="margin-top: 51px;">
+      </div>
+      <section class="row row-banner">
+        <div class="quote">
+          <h4>Hasnan Yaqoob | HTML, Python & Django Developer</h4>
+        </div>
+      </section>
+      <!--End of banner-->
+      <section class="row tabs">
+        <div class="col-sm-2 html black-tab">
+				  <div>
+				    <i class="fa fa-html5" aria-hidden="true"></i>
+				    <p>HTML</p>
+				  </div>
+			  </div>
+			  <div class="col-sm-2 css colored-tab">
+				  <div>
+				    <i class="fa fa-css3" aria-hidden="true"></i>
+				    <p>CSS</p>
+				  </div>
+			  </div>
+			  <div class="col-sm-2 javascript black-tab">
+				  <div>
+				    <img src="images/js_icon.jpg" alt="Javascript Icon" class="img-icon" />
+				    <p>Javascript</p>
+				  </div>
+			  </div>
+			  <div class="col-sm-2 python colored-tab">
+				  <img src="images/python_icon.png" alt="python icon" class="img-icon" />
+				  <p>Python<span id="tm">TM</span></p>
+			  </div>
+			  <div class="col-sm-2 django black-tab">
+				  <img src="images/django_icon.png" alt="django icon" class="img-icon" />
+				  <p>django</p>
+			  </div>
+			  <div class="col-sm-2 social colored-tab">
+				  <div>
+				    <i class="fa fa-users" aria-hidden="true"></i>
+				    <p>SOCIAL</p>
+				  </div>
+			  </div>
+      </section>
+      <!--End of tabs-->
+      <section class="row about-section add-element" id="about">
+        <h1>ABOUT ME</h1>
+        <hr>
+      </section>
+      <section class="row">
+        <div class="col-md-6 about-me">
+			  	<p>&quot;I'm a <strong>Web Developer</strong> living in Lahore, Pakistan.
+          I spend my days with my hands in different areas of web development
+          from back-end programming (Django/Python) to front-end engineering
+          (HTML, CSS and JQuery/Javascript), digital accessibility, user experience
+          and visual design. I'm extremely passionate about Web Development and
+          <Strong>Python</strong> programming. Lorem ipsum dolor sit amet, consectetur
+          adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore
+          magna aliqua. I love to learn about new technologies.My hobbies are
+          <strong>coding</strong>, playing snooker and eating.&quot;</p>
+			  </div>
+        <div class="col-md-6 picture">
+				  <div class="my-image">
+				    <img src="my_picture.jpg" alt="My Picture" />
+				  </div>
+			  </div>
+      </section>
+      <!--End of About Section-->
+      <section class="row work add-element" id="portfolio">
+        <h1>MY WORK</h1>
+        <hr>
+      </section>
+      <section class="row my-work" id="portfolio-links">
+        <article class="col-sm-4 boxes">
+          <img src="images/movie_project.png" alt="Movie Trailer Website Project">
+          <p><a href="https://github.com/hasnaind/ud036_StarterCode" target="_blank">Movie Trailer Website</a></p>
+        </article>
+        <article class="col-sm-4 boxes">
+          <img src="images/placeholder.jpg" alt="Placeholder">
+          <p><a href="#" target="_blank">Project Details</a></p>
+        </article>
+        <article class="col-sm-4 boxes">
+          <img src="images/placehoder1.jpg" alt="image">
+          <p><a href="#" target="_blank">Project Details</a></p>
+        </article>
+      </section>
+      <!--End of Portfolio Section-->
+      <section class="row contact-section add-element" id="contact">
+        <h1>CONTACT ME</h1>
+        <hr>
+      </section>
+      <section class="row contact-form">
+        <div class="col-md-6 user-info">
+          <form class="" action="index.html" method="post">
+            <table>
+              <tr>
+                <td><p><input type="text" name="name" placeholder="Name"></p></td>
+              </tr>
+              <tr>
+                <td><p><input type="email" name="email" placeholder="Email Adress"></p></td>
+              </tr>
+              <tr>
+                <td><p><input type="tel" name="telephone" placeholder="Phone Number"></p></td>
+              </tr>
+              <tr>
+                <td><p><textarea id="textarea" rows="5" placeholder="Message :"></textarea></p></td>
+              </tr>
+              <tr>
+                <td><p><button type="submit" name="submission-button" id="submit-button">Send</button></p></td>
+              </tr>
+            </table>
+          </form>
+        </div>
+        <div class="col-md-6 my-message">
+          <p>
+            Want to get in touch with me? Be it to request more info about myself or my experience,
+            to ask for my resume, tips on how to solve your sudoku, random questions about the
+            universe and the meaning of life, or even if only for some nice Fika here in Lahore...
+            just feel free to drop me a line anytime.
+          </p>
+				  <p>
+					  I promise to reply A.S.A.P.
+				  </p>
+				  <p>
+					  Note: No spam/ Thank You :)
+				  </p>
+        </div>
+      </section>
+      <!--End of contact section-->
+      <section class="row page-description">
+        <div class="col-sm-6">
+          <p>
+            <span>ABOUT THIS PAGE</span>
+          </p>
+				  <P>
+          <span>Made with <i class="fa fa-coffee" aria-hidden="true"></i>
+          and <i class="fa fa-music" aria-hidden="true"></i> by Hasnan Yaqoob.</span>
+          </P>
+        </div>
+        <div class="col-sm-6" id="social-links">
+          <p><span>AROUND THE WEB</span></p>
+          <a href="#" title=" LinkedIn " target="_blank"><i class="fa fa-linkedin" aria-hidden="true"></i></a>
+				  <a href="#" title=" GitHub " target="_blank"><i class="fa fa-github" aria-hidden="true"></i></a>
+				  <a href="#" title=" Facebook " target="_blank"><i class="fa fa-facebook" aria-hidden="true"></i></a>
+        </div>
+      </section>
+      <footer class="row">
+        <div class="container footer">
+          <h4>WebsTaR <sup>&copy;</sup> 2017. All Rights Reversed :)</h4>
+        </div>
+      </footer>
+      <!--End of Footer-->
+    </div>
+  </body>
+</html>
